@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Log In</title>
+  <meta charset = "utf-8">
+  <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js" charset="UTF-8"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<style>
+
+	body, html {
+	  height: 100%;
+	}
+
+	.bg-img{
+		background-image: url("images/1_old2.jpg");
+		min-height: 100%;
+		background-position: center;
+  		background-repeat: no-repeat;
+  		background-size: cover;
+  		position: relative;
+	}
+
+	.container{
+		position: absolute;
+		margin: 20px;
+		max-width: 300px;
+		padding: 16px;
+		color: #ffffff;
+		padding-left: 45px;
+		
+	}
+
+	input{
+ 		width: 100%;
+  		background: none;
+  		border-top: none;
+  		border-left: none;
+  		border-right: none;
+  		border-bottom-color: #e6e6e6;
+  		padding: 22px 0 0 0;
+  		margin: 5px 0 22px 0;
+  		color: #e6e6e6;
+	}
+
+	.btn{
+		margin-top: 15px;
+		padding: 10px;
+		background-color: transparent;
+		color: #ffffff;
+		border: 2px solid #e6e6e6;
+		border-radius: 30%;
+		font-weight: bold;
+	}
+
+	.btn:hover{
+		color: #bfbfbf;
+		background-color: #ffffff;
+	}
+
+</style>
+
+</head>
+<body>
+
+	<div class="bg-img">
+	  <form class="container" autocomplete = "off">
+	    <h1>Log In</h1><br><br>
+
+	    <label type="email"><b>Email</b></label>
+	    <input type="text" name="email" required><br><br>
+
+	    <label for="psw"><b>Password</b></label>
+	    <input type="password" name="psw" required>
+
+	    <button type="submit" class="btn">Login</button>
+	  </form>
+	</div>
+
+</body>
+</html>
